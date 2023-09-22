@@ -1,0 +1,197 @@
+input
+{
+    width: 503px;
+    height: 31px;
+    margin: 1px 30px;
+}
+
+.navbar
+{
+    background-color: #6C7AF5 !important;
+}
+.navbar a
+{
+    color: #fff !important;
+}
+header
+{
+    color: #fff !important;
+}
+
+.buscar
+{
+    background-color: #6C7AF5;
+    border: 1px solid #FFF;
+    color: #fff !important;
+    width: 503px;
+    height: 31px;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+footer
+{
+    display: flex;
+    background-color: #EDEDED;
+    padding: 0px 0px;
+}
+
+.d-flex
+{
+    margin: 0px !important;
+}
+
+input::placeholder
+{
+    color: #fff;
+}
+
+.navbar-brand
+{
+    color: #FFF;
+    font-size: 32px;
+}
+
+span
+{
+    color: #FAFF07;
+}
+
+.nav-link
+{
+    margin: 0 30px;
+}
+
+.nav
+{
+    width: fit-content;
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+ 
+
+.login
+{       
+        background: #fff;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+h1 
+{
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 750;
+}
+
+.right-login
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card-login{
+    top: 180px;
+    margin: 50px 50px;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 35px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #cfcdcd;
+}
+
+.textfield
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    margin: 10px 0px ;
+    color: #CDCDCD;
+
+}
+
+.textfield > input
+{
+    position: relative;
+    right: 40px;
+    width: 546px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #EDEDED;
+    background: #CDCDCD;
+    color: #CDCDCD;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.textfield > label
+{
+    color: #000000de;
+    margin-bottom: 10px; 
+}
+
+.textfield > input::placeholder{
+    color: #CDCDCD;
+
+}
+
+.btn-login
+{
+    width: 83px;
+    height: 44px;
+    text-align: center;
+    font-size: 10px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    background: #06F;
+    cursor: pointer;
+}
+
+#button
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.form-lembrar
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
